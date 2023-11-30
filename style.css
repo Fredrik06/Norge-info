@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: #333;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0px 0px 25px 10px rgba(0,0,0, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+    margin-right: 40px;
+    font-weight: normal;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: cyan;
+    transform: scale(1.1); 
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-gap: 50px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nordlys {
+    background-image: url('henningsvar-cruise_header_5ee9c7d89f869_original.jpg');
+    border-bottom: 3px solid black;
+}
+
+.byer {
+    background-image: url(troms.jpg);
+    border-bottom: 3px solid black;
+}
+
+.natur{
+    background-image: url(nautr.jpeg);
+    border-bottom: 3px solid black;
+}
+
+.kultur {
+    background-image: url(uten-navn1.png);
+}
+
+.text-box {
+    display: flex;
+    max-width: 300px;
+    background-color: rgba(0,0,0, 0.5); 
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 25px 10px rgba(0,0,0, 0.5); 
+    font-size: 20px;
+    z-index: 1;
+    font-family: Arial, sans-serif;
+    backdrop-filter: blur(5px);
+    color: white;
+}
+
+.right {
+    grid-row-start: 4;
+    grid-row-end: 7;
+    grid-column-start: 3;
+}
+
+.left {
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+.box-content {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+}
+p {
+    text-align: center;
+}
+
+.norge {
+    text-align: center;
+    font-weight: normal;
+}
